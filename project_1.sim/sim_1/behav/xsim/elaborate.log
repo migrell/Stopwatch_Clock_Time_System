@@ -1,0 +1,13 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/migtell/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 5977457485ff44c3abcc083b3cf0bfb5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_stopwatch_dp_behav xil_defaultlib.tb_stopwatch_dp xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2991] 'u_clk_div_100' is not declared under prefix 'uut' [C:/250316_plz/project_1/project_1.srcs/sim_1/new/tb.dp2.v:41]
+WARNING: [VRFC 10-3091] actual bit length 7 differs from formal bit length 6 for port 'sec' [C:/250316_plz/project_1/project_1.srcs/sim_1/new/tb.dp2.v:26]
+WARNING: [VRFC 10-3091] actual bit length 7 differs from formal bit length 6 for port 'min' [C:/250316_plz/project_1/project_1.srcs/sim_1/new/tb.dp2.v:27]
+WARNING: [VRFC 10-3091] actual bit length 6 differs from formal bit length 7 for port 'o_time' [C:/250316_plz/project_1/project_1.srcs/sources_1/new/dp.v:37]
+WARNING: [VRFC 10-3091] actual bit length 6 differs from formal bit length 7 for port 'o_time' [C:/250316_plz/project_1/project_1.srcs/sources_1/new/dp.v:47]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 7 for port 'o_time' [C:/250316_plz/project_1/project_1.srcs/sources_1/new/dp.v:57]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
